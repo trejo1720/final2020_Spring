@@ -174,4 +174,4 @@ Question 1: The drug is effective in preventing the contraction of AIDS and reco
 
 Question 2: The drug does not effect whether one is in the LGBTQ community or not. 
 
-Question 3:If you take the drug as a male you are less likely to contract AIDS.
+Question 3:If you take the drug as a male you are less likely to contract AIDS than not on the drug. 
