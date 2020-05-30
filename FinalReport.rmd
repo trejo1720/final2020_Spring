@@ -68,13 +68,7 @@ fisher.test(table1)
 
 For chi square test the p value was 0.0000002 which is less than 0.5, which is evidence to reject the null hypothesis. 
 
-# Discussion and Conclusion
 
-<!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
-Summary of Results: 
-Question 1: The drug is effective in preventing the contraction of AIDS and recommend the drug be used in the gen. population. 
-
-Question 2: The drug does not effect whether one is in the LGBTQ community or not. 
 ## Question 2: Is the drug effective in the LGBTQ community. 
 
 $H_O$ : The drug has no effect on the LGBTQ community contracting AIDS. 
@@ -164,3 +158,20 @@ table shows row percentages on top half and column percentages on other half.
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
+```{r}
+chisq.test(table3)
+chisqtestGC(table3)
+fisher.test(table3)
+```
+
+Chi square shows p value as .0000002 which is less than 5 so we reject the null hypothesis. 
+
+# Discussion and Conclusion
+
+<!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+Summary of Results: 
+Question 1: The drug is effective in preventing the contraction of AIDS and recommend the drug be used in the gen. population. 
+
+Question 2: The drug does not effect whether one is in the LGBTQ community or not. 
+
+Question 3:If you take the drug as a male you are less likely to contract AIDS.
