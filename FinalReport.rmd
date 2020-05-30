@@ -20,6 +20,14 @@ A new  preventative aides (triUmpsal) is under test in clinical trials. Analyze 
 # Methods
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
+All variables in this study are categorical as a result we will use bar chart for grahpical display a cross table to summarize numerical results and a chi square and or fisher test for inference. 
+## Question 1: is the drug effective in the general population?
+
+The first question is whether or not the vaccine was effective in the whole population. 
+
+$H_O$ The drug has no effect on whether or not one gets AIDS.
+
+$H_A$ The drug does have an effect on whether or not one contracts AIDS.
 
 #Results
 
@@ -30,6 +38,12 @@ A new  preventative aides (triUmpsal) is under test in clinical trials. Analyze 
 ### Graphical Descriptive Results
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming or departing to what is expected by your null hypothesis !-->
+
+```{r}
+barchartGC(~infected + treatment, tyoe ='percent', data=triUmp)
+```
+
+This barchart shows the vaccine may have an effect on whether one contracts AIDS.
 
 ### Numerical Descriptive Results
 
